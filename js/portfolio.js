@@ -1,11 +1,11 @@
-$(document).ready(function () {
+jQuery(document).ready(function () {
 
     // Selectors with the class scrollable will scroll to the selector with
     // appropriate data-scrollto attribute
-    $(".scrollable").click(function () {
-        var scroll_to = $(this).data("scrollto");
+    jQuery(".scrollable").click(function () {
+        var scroll_to = jQuery(this).data("scrollto");
         console.log(scroll_to);
-        $("html, body").animate({scrollTop: $(scroll_to).offset().top}, 1000);
+        jQuery("html, body").animate({scrollTop: jQuery(scroll_to).offset().top}, 1000);
     });
      
     // Invoke colorbox
@@ -16,22 +16,31 @@ $(document).ready(function () {
     
     
     // First page script
-    var width = $(window).width(),
-        height = $(window).height();
+    var width = jQuery(window).width(),
+        height = jQuery(window).height();
 
-    $('.first-page').height(height);
+    jQuery('.first-page').height(height);
     
-    $(window).bind('resize', function () {
+    jQuery(window).bind('resize', function () {
         imgsize();
     });    
     
     // Resizing image height on resize
     function imgsize() {
-        var width = $(window).width(),
-                height = $(window).height();
+        var width = jQuery(window).width(),
+                height = jQuery(window).height();
 
-        $('.first-page').height(height);
+        jQuery('.first-page').height(height);
     }
+    
+     
+    jQuery("#owl-demo").owlCarousel({
+        navigation: true,
+        pagination: true,
+        items: 3,
+    });
+ 
 
 });
+
 
