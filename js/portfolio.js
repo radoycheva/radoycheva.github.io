@@ -35,7 +35,7 @@ jQuery(document).ready(function () {
     
      
     jQuery("#owl-demo").owlCarousel({
-        navigation: true,
+        navigation: false,
         pagination: true,
         items: 3,
     });
