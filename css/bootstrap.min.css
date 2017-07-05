@@ -1852,6 +1852,10 @@ pre code {
   margin-left: auto;
 }
 
+.container {
+      width: 100%;
+}
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
