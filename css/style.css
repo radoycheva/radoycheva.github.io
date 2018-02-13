@@ -218,9 +218,14 @@ a.colorbox-img {
     text-align: center;
     background: url('../images/me-section.jpg');
 }
+
 .container.me .row {
-position: relative;
-top: 50%;
+    position: relative;
+    top: 50%;
+}
+
+.container.me p{
+    line-height: 40px;
 }
 
 /* END OF ME */
