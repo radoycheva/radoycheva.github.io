@@ -175,6 +175,8 @@ a.colorbox-img {
 
 .container.services {
     margin-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .services .services-row {
     display: block;
@@ -210,6 +212,8 @@ a.colorbox-img {
 
 .container.about {
     margin-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
     text-align: center;
     background: ghostwhite;
 }
