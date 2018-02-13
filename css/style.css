@@ -218,6 +218,10 @@ a.colorbox-img {
     text-align: center;
     background: url('../images/me-section.jpg');
 }
+.container.me .row {
+position: relative;
+top: 50%;
+}
 
 /* END OF ME */
 
