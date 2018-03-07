@@ -322,6 +322,7 @@ a.colorbox-img {
     display: block;
     text-align: center;
     margin-top: 50px;
+    display: none;
 }
 
 .navigation-row .icon a img {
