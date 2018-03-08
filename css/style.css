@@ -375,10 +375,10 @@ a.colorbox-img {
 article {
   margin: 20px auto;
   width: 100%;
-  padding: 1em;
-  font-family: sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font-family: "Open Sans";
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   color:black;
   text-align: center;
 }
@@ -403,7 +403,6 @@ article {
 .student p {
   position: relative;
   top: 5px;
-  text-transform: uppercase;
 }
 
 .student p:nth-child(2) {
