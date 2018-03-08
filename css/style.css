@@ -385,7 +385,9 @@ article {
 
 
 .quote {
-  padding: 15px 20px 5px 15px;
+  display: inline-block;
+  width: 70%;
+  padding-top: 15px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
