@@ -29,9 +29,9 @@ img.scrollable:hover {
 }
 
 .container .line p{
-    font-family: "Dancing Script";
-    text-align: center;
-    font-size: 25px;
+    font-family: "Dancing Script" !important;
+    text-align: center !important;
+    font-size: 25px !important;
 }
 
 .container .line img {
