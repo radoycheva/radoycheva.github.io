@@ -370,3 +370,49 @@ a.colorbox-img {
 #owl-demo .owl-item > div {
     padding: 0px 2px
 }
+
+
+article {
+  margin: 20px auto;
+  width: 100%;
+  padding: 1em;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color:black;
+  text-align: center;
+}
+
+
+.quote {
+  padding: 15px 20px 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.student .photo {
+  display: inline-block;
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  
+}
+
+.student p {
+  position: relative;
+  top: 5px;
+  text-transform: uppercase;
+}
+
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.student p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+}
