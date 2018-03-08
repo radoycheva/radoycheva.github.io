@@ -387,6 +387,8 @@ article {
   width: 70%;
   padding-top: 15px;
   border-radius: 5px;
+  font-style: italic;
+  color: gray;
 }
 
 .student .photo {
