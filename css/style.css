@@ -262,6 +262,8 @@ a.colorbox-img {
     text-align: center;
     font-family: "Open Sans";
     text-transform: none;
+    font-style: italic;
+    color: gray;
 }
 
 /* END OF TESTIMONIALS */
