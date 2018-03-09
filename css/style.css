@@ -220,7 +220,7 @@ a.colorbox-img {
 
 .container.me .row {
     position: relative;
-    top: 50%;
+    top: 40%;
 }
 
 .container.me p{
@@ -268,6 +268,67 @@ a.colorbox-img {
     font-family: "Open Sans";
     text-transform: none;
     
+}
+
+#owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:4px;
+}
+#owl-demo .owl-item > div {
+    padding: 0px 2px
+}
+
+
+article {
+  margin: 20px auto;
+  width: 100%;
+  font-family: "Open Sans";
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  color:black;
+  text-align: center;
+}
+
+
+.quote {
+  display: inline-block;
+  width: 70%;
+  padding-top: 15px;
+  border-radius: 5px;
+  font-style: italic;
+  color: gray;
+}
+
+.student .photo {
+  display: inline-block;
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  
+}
+
+.student p {
+  position: relative;
+  top: 5px;
+}
+
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.student p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
 }
 
 /* END OF TESTIMONIALS */
@@ -359,63 +420,4 @@ a.colorbox-img {
     }
 }
 
-#owl-demo .owl-item > div img {
-    display: block;
-    width: 100%;
-    height: auto;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    margin-bottom:4px;
-}
-#owl-demo .owl-item > div {
-    padding: 0px 2px
-}
 
-
-article {
-  margin: 20px auto;
-  width: 100%;
-  font-family: "Open Sans";
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-  color:black;
-  text-align: center;
-}
-
-
-.quote {
-  display: inline-block;
-  width: 70%;
-  padding-top: 15px;
-  border-radius: 5px;
-  font-style: italic;
-  color: gray;
-}
-
-.student .photo {
-  display: inline-block;
-  background-color: #ccc;
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  
-}
-
-.student p {
-  position: relative;
-  top: 5px;
-}
-
-.student p:nth-child(2) {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.student p:nth-child(3) {
-  font-size: 14px;
-  color: #777;
-}
